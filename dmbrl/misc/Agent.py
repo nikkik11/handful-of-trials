@@ -3,7 +3,7 @@ from __future__ import print_function
 from __future__ import absolute_import
 
 import numpy as np
-from gym.monitoring import VideoRecorder
+from gym.wrappers.monitoring import video_recorder
 from dotmap import DotMap
 
 import time
