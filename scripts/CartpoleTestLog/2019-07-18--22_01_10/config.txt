@@ -1,0 +1,33 @@
+{'ctrl_cfg': {'env': <dmbrl.env.cartpole.CartpoleEnv object at 0x000002340210F828>,
+              'log_cfg': {},
+              'opt_cfg': {'ac_cost_fn': <function CartpoleConfigModule.ac_cost_fn at 0x0000023402113B70>,
+                          'cfg': {'alpha': 0.1,
+                                  'max_iters': 5,
+                                  'num_elites': 40,
+                                  'popsize': 400},
+                          'mode': 'CEM',
+                          'obs_cost_fn': <function CartpoleConfigModule.obs_cost_fn at 0x0000023402113AE8>,
+                          'plan_hor': 25},
+              'prop_cfg': {'mode': 'TSinf',
+                           'model_init_cfg': {'load_model': True,
+                                              'model_class': <class 'dmbrl.modeling.models.BNN.BNN'>,
+                                              'model_constructor': <bound method CartpoleConfigModule.nn_constructor of <cartpole.CartpoleConfigModule object at 0x0000023402014B70>>,
+                                              'model_dir': 'C:\\Users\\nikki\\OneDrive\\Research\\Continuous '
+                                                           'RL\\BAIR Handful '
+                                                           'of Trails '
+                                                           'Probabilistic '
+                                                           'Dynamics\\handful-of-trials\\scripts\\CartpoleTrainLog\\2019-07-11--19_45_04',
+                                              'num_nets': 5},
+                           'model_pretrained': True,
+                           'model_train_cfg': {'epochs': 5},
+                           'npart': 20,
+                           'obs_postproc': <function CartpoleConfigModule.obs_postproc at 0x00000234021139D8>,
+                           'obs_preproc': <function CartpoleConfigModule.obs_preproc at 0x0000023402113620>,
+                           'targ_proc': <function CartpoleConfigModule.targ_proc at 0x0000023402113A60>}},
+ 'exp_cfg': {'exp_cfg': {'ninit_rollouts': 0,
+                         'nrollouts_per_iter': 1,
+                         'ntrain_iters': 1,
+                         'policy': <dmbrl.controllers.MPC.MPC object at 0x0000023402512D30>},
+             'log_cfg': {'logdir': './CartpoleTestLog'},
+             'sim_cfg': {'env': <dmbrl.env.cartpole.CartpoleEnv object at 0x000002340210F828>,
+                         'task_hor': 200}}}
